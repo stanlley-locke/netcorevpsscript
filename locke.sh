@@ -34,7 +34,7 @@ clear;clear;clear
   # // Banner
 echo -e "${YELLOW}â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”${NC}"
 echo -e "  Script : ${RED} ð–ð„ð‹ð‚ðŽðŒð„ ð“ðŽ ðŸ”«â˜ï¸ðŸ´â€â˜ ðŸ§‘â€ðŸ’»â˜LEMMAR ð’ð“ðŽð‘ð„ ${NC}"
-echo -e "  Author : ${RED}â›·ï¸ðŸ„ðŸ‚ðŸ–¥ï¸ðŸ¼â˜£ï¸â›½ðŸ´â€â˜ ï¸ðŸ¥·ðŸ¥¸ðŸ—½ðŸ”«ðŸŽ®â˜ï¸â˜ï¸„1¤7 LEMMAR ${NC}${YELLOW}${NC}"
+echo -e "  Author : ${RED}â›·ï¸ðŸ„ðŸ‚ðŸ–¥ï¸ðŸ¼â˜£ï¸â›½ðŸ´â€â˜ ï¸ðŸ¥·ðŸ¥¸ðŸ—½ðŸ”«ðŸŽ®â˜ï¸â˜ï¸„1¤7 LOCKE ${NC}${YELLOW}${NC}"
 echo -e "  Â©2024  : ${BLUE} VVIPâ˜ï¸ðŸŽ®ðŸ”«â™¾ï¸ðŸ—½ðŸ¥¸ðŸ¥·ðŸ´â€â˜ ï¸ðŸ„â›·ï¸â˜£ï¸ðŸ¼âŒ¨ï¸ðŸ’»ðŸª©ðŸŒðŸŒ„1¤7 ð„ðƒðˆð“ðˆðŽð ${NC}"
 echo -e "${YELLOW}â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”${NC}"
 echo ""
@@ -91,7 +91,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/chikuno/Script/main/"
+    REPO="https://raw.githubusercontent.com/stanlley-locke/netcorevpsscript/main/"
 
 ####
 start=$(date +%s)
@@ -278,7 +278,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/chikuno/Script/main/keygen"
+izinsc="https://raw.githubusercontent.com/stanlley-locke/netcorevpsscript/main/keygen"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
